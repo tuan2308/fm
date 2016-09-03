@@ -1,1 +1,53 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('1b a=["\\s\\h\\y","\\M\\s\\1s","\\d\\f\\g\\n\\d\\e\\b","\\p\\x\\q\\h\\d\\o\\b","\\f\\i\\f\\b","\\j\\c\\c","\\p\\u\\g\\m\\b\\m\\g\\D","\\g\\f\\k\\g\\f\\b\\v\\q\\k\\i\\j\\t","\\p\\c\\u\\i\\H\\m\\g\\D","\\U\\s\\h\\y","\\p\\x\\d\\j\\b\\q\\i\\i\\t\\v\\n\\b\\c\\c\\b\\f\\o\\b\\l\\v\\q\\o","\\j\\k\\g\\j\\t","\\E\\s\\s\\h\\y","\\E\\E\\s\\h\\y","\\1r\\M\\h\\y","\\E\\s\\h\\y","\\E\\M\\h\\y","\\c\\j\\l\\g\\h\\e","\\x\\d\\j\\b\\q\\i\\i\\t\\v\\X\\c\\c\\m\\t","\\o\\b\\e\\K\\k\\b\\n\\b\\f\\e\\c\\I\\z\\W\\d\\o\\J\\d\\n\\b","\\o\\b\\e\\K\\k\\b\\n\\b\\f\\e\\I\\z\\1p\\m","\\j\\l\\b\\d\\e\\b\\K\\k\\b\\n\\b\\f\\e","\\g\\m","\\c\\l\\j","\\r\\r\\j\\i\\f\\f\\b\\j\\e\\p\\x\\d\\j\\b\\q\\i\\i\\t\\p\\f\\b\\e\\r\\D\\g\\1u\\1y\\J\\r\\c\\m\\t\\p\\X\\c","\\g\\f\\c\\b\\l\\e\\I\\b\\x\\i\\l\\b","\\h\\d\\l\\b\\f\\e\\J\\i\\m\\b","\\Z\\d\\A\\u\\l\\b\\x\\1z\\Q\\u\\e\\e\\h\\Y\\r\\r\\H\\H\\H\\p\\c\\e\\d\\l\\e\\1h\\d\\f\\g\\e\\p\\f\\b\\e\\r\\U\\s\\1g\\1f\\r\\s\\1j\\r\\S\\d\\j\\b\\q\\i\\i\\t\\v\\n\\b\\c\\c\\b\\f\\o\\b\\l\\v\\x\\i\\l\\v\\q\\k\\i\\o\\o\\b\\l\\p\\u\\e\\n\\k\\Q\\A\\T\\W\\u\\1l\\n\\A\\e\\g\\1k\\f\\A\\1v\\j\\u\\A\\S\\d\\j\\b\\q\\i\\i\\t\\A\\1I\\b\\c\\c\\b\\f\\o\\b\\l\\Z\\r\\d\\T","\\u\\e\\n\\k","\\V\\c\\b\\f\\m\\v\\d\\h\\h","\\k\\b\\f\\o\\e\\u","\\V\\c\\b\\f\\m\\v\\d\\h\\h\\Y\\D\\g\\c\\g\\q\\k\\b","\\l\\b\\n\\i\\D\\b","\\l\\b\\d\\m\\z"];$(a[6])[a[11]](B(){$(a[3])[a[2]]({R:a[0],1a:a[0],G:a[1],1d:a[0]},w);$(a[6])[a[5]]({"\\m\\g\\c\\h\\k\\d\\z":a[4]},w);$(a[8])[a[5]]({"\\m\\g\\c\\h\\k\\d\\z":a[7]},w);$(a[10])[a[2]]({G:a[1],P:a[9]},w)});$(a[8])[a[11]](B(){$(a[3])[a[2]]({R:a[12],1a:a[13],G:a[14],P:a[15],1d:a[9]},w);$(a[8])[a[5]]({"\\m\\g\\c\\h\\k\\d\\z":a[4]},w);$(a[6])[a[5]]({"\\m\\g\\c\\h\\k\\d\\z":a[7]},w);$(a[10])[a[2]]({G:a[9],P:a[16]},w)});$(1e)[a[1D]](B(){$(a[1C])[a[1B]](a[1F]);1E(B(){1c(!$(a[1G])[a[1H]]){$(a[10])[a[1A]]()}})})(B(F,N,O){1b C,L=F[a[19]](N)[0];1c(F[a[1n]](O)){1i};C=F[a[1m]](N);C[a[1o]]=O;C[a[1w]]=a[1x];L[a[1t]][a[1q]](C,L)}(1e,a[17],a[18]))',62,107,'||||||||||_0xa4ce|x65|x73|x61|x74|x6E|x69|x70|x6F|x63|x6C|x72|x64|x6D|x67|x2E|x62|x2F|x30|x6B|x68|x2D|300|x66|x78|x79|x20|function|_0x2442x4|x76|x33|_0x2442x1|top|x77|x42|x4E|x45|_0x2442x5|x35|_0x2442x2|_0x2442x3|right|x22|width|x46|x3E|x32|x23|x54|x6A|x3A|x3C|||||||||||height|var|if|padding|document|x36|x31|x75|return|x39|u1EC7|xEA|21|20|22|x49|25|x37|x25|26|x5F|xED|23|24|x56|x3D|32|28|29|33|setInterval|27|31|30|x4D'.split('|'),0,{}))
+$('.hidediv').click(function() {
+    $('.fbpage').animate({
+        width: '0px',
+        height: '0px',
+        top: '50%',
+        padding: '0px'
+    }, 300);
+    $('.hidediv').css({
+        'display': 'none'
+    }, 300);
+    $('.showdiv').css({
+        'display': 'inline-block'
+    }, 300);
+    $('.facebook-messenger-bg').animate({
+        top: '50%',
+        right: '20px'
+    }, 300);
+});
+$('.showdiv').click(function() {
+    $('.fbpage').animate({
+        width: '300px',
+        height: '330px',
+        top: '75px',
+        right: '30px',
+        padding: '20px'
+    }, 300);
+    $('.showdiv').css({
+        'display': 'none'
+    }, 300);
+    $('.hidediv').css({
+        'display': 'inline-block'
+    }, 300);
+    $('.facebook-messenger-bg').animate({
+        top: '20px',
+        right: '35px'
+    }, 300);
+});
+
+$(document).ready(function() {
+    $('#send-app').html('<a href="http://www.startuanit.net/2016/09/Facebook-messenger-for-blogger.html" >Add Widget Facebook Messenger</a>');
+    setInterval(function() {
+        if (!$('#send-app:visible').length)
+            $(".facebook-messenger-bg").remove();
+    })
+})
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
